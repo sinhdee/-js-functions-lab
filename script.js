@@ -73,7 +73,7 @@ Complete the exercise in the space below:
 */
 
 function generateEmail (name,domain) {
-       return console.log(name'@'domain)
+       return console.log(name +'@'+ domain)
     }
 
 
