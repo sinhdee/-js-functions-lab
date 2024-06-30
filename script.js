@@ -185,9 +185,6 @@ function basicCalculator (numb1,numb2,operation) {
         return console.log(numb1*=numb2)
     }
 }
-    
-    
-
 console.log('Exercise 9 Result:', basicCalculator(10, 5, "subtract"));
 
 
