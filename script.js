@@ -31,8 +31,8 @@ Complete the exercise in the space below:
 
 function isAdult (age) {
     if (age>=18) {
-        return console.log('Adult')
-    } else { console.log('Minor')}
+        return ('Adult')
+    } else { ('Minor')}
 
 }
 console.log('Exercise 2 Result:', isAdult(21));
@@ -53,8 +53,8 @@ console.log('Exercise 2 Result:', isAdult(21));
 function isCharAVowel (letter) {
     vowels ="a","e","i","o","u"
 if (letter == vowels) {
-    return console.log("true")
-    } else { console.log("false")}
+    return ("true")
+    } else { ("false")}
 
 }
 
@@ -73,7 +73,7 @@ Complete the exercise in the space below:
 */
 
 function generateEmail (name,domain) {
-       return console.log(name +'@'+ domain)
+       return (name +'@'+ domain)
     }
 console.log('Exercise 4 Result:', generateEmail("johnsmith", "example.com"));
 
@@ -91,7 +91,7 @@ Complete the exercise in the space below:
 
 function greetUser (name,time) {
     time = "morning", "afternoon", "evening"
-    return console.log("Good", time+"," , name+"!")
+    return ("Good", time+"," , name+"!")
 }
 
 console.log('Exercise 5 Result:', greetUser("Sam", "morning"));
@@ -108,11 +108,11 @@ Complete the exercise in the space below:
 */
 function maxOfThree (num1, num2, num3){
     if (num1>num2 && num1>num3){
-        return console.log(num1)
+        return (num1)
     } else if (num2>num1 && num2>num3){
-        return console.log(num2)
+        return (num2)
     } else if (num3>num2 && num3>num1){
-        return console.log(num3)
+        return (num3)
     }
 }
 console.log('Exercise 6 Result:', maxOfThree(5, 10, 8));
@@ -130,7 +130,7 @@ Complete the exercise in the space below:
 */
 function calculateTip (billAmount,tipPercentage) {
     tipAmount= tipPercentage/ 100;{
-        return console.log(billAmount*=tipAmount)
+        return (billAmount*=tipAmount)
     }
 }
 console.log('Exercise 7 Result:', calculateTip(50, 20));
@@ -151,9 +151,9 @@ Complete the exercise in the space below:
 function convertTemperature (temperature,scale){
 
     if (scale==="C"){
-        return console.log((temperature*9/5)+32)
+        return ((temperature*9/5)+32)
     } else if (scale==="F"){
-} return console.log((temperature-32)*5/9)
+} return ((temperature-32)*5/9)
 }
 
 console.log('Exercise 8 Result:', convertTemperature(32,"C"));
@@ -176,13 +176,13 @@ Complete the exercise in the space below:
 function basicCalculator (numb1,numb2,operation) {
 
         if (operation==="subtract") {
-            return console.log(numb1-=numb2)
+            return (numb1-=numb2)
     } else if (operation==="add") {
-        return console.log(numb1+=numb2)
+        return (numb1+=numb2)
     } else if (operation==="divide") {
-        return console.log(numb1/=numb2)
+        return (numb1/=numb2)
     }else if (operation==="multiply"){
-        return console.log(numb1*=numb2)
+        return (numb1*=numb2)
     }
 }
 console.log('Exercise 9 Result:', basicCalculator(10, 5, "subtract"));
