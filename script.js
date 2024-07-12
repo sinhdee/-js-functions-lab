@@ -32,7 +32,9 @@ Complete the exercise in the space below:
 function isAdult (age) {
     if (age>=18) {
         return ('Adult')
-    } else { ('Minor')}
+    } else {
+        return ("Minor")
+    }
 
 }
 console.log('Exercise 2 Result:', isAdult(21));
@@ -51,14 +53,15 @@ console.log('Exercise 2 Result:', isAdult(21));
 // */
 
 function isCharAVowel (letter) {
-    vowels ="a","e","i","o","u"
-if (letter == vowels) {
+    vowels = "a", "e", "i","o","u","A", "E", "I","O", "U"
+if (vowels ==="A"|| vowels==="a"|| vowels==="E" || vowels === "e" || vowels === "I" || vowels === "i" || vowels === "O" || vowels === "o" || vowels === "U" || vowels === "u") {
     return ("true")
-    } else { ("false")}
-
+    } else {
+        return ("false")
+    }
 }
 
-console.log('Exercise 3 Result:', isCharAVowel("a"));
+console.log('Exercise 3 Result:', isCharAVowel("A"));
 
 /*
 Exercise 4: generateEmail()
@@ -89,11 +92,9 @@ Example: greetUser('Sam', 'morning') should return "Good morning, Sam!"
 Complete the exercise in the space below:
 */
 
-function greetUser (name,time) {
-    time = "morning", "afternoon", "evening"
-    return ("Good", time+"," , name+"!")
+function greetUser(names,times) {
+return ("Good" + " " + times + " " + names + "!");
 }
-
 console.log('Exercise 5 Result:', greetUser("Sam", "morning"));
 
 /*
